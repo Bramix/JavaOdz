@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="278.0" prefWidth="600.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bramix.design.controllers.AddController">
+   <children>
+      <Label prefHeight="29.0" prefWidth="132.0" text="Name:" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="444.0" AnchorPane.topAnchor="22.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldName" prefHeight="25.0" prefWidth="422.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="24.0" />
+      <TextField fx:id="textFieldSurname" layoutX="164.0" layoutY="53.0" prefHeight="25.0" prefWidth="422.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="13.0" />
+      <Label layoutX="21.0" layoutY="51.0" prefHeight="29.0" prefWidth="132.0" text="Surname:" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="51.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="80.0" prefHeight="29.0" prefWidth="132.0" text="Course:" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Please enter in format 23/07/1999" />
+         </tooltip>
+      </Label>
+      <TextField fx:id="textFieldCourse" layoutX="164.0" layoutY="82.0" prefHeight="25.0" prefWidth="422.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="82.0" />
+      <TextField fx:id="textFieldGroup" layoutX="164.0" layoutY="111.0" prefHeight="25.0" prefWidth="422.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="111.0" />
+      <Label layoutX="21.0" layoutY="109.0" prefHeight="29.0" prefWidth="132.0" text="Group:" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="109.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="138.0" prefHeight="29.0" prefWidth="132.0" text="Base benefit:" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="138.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldBaseBenefit" layoutX="161.0" layoutY="140.0" prefHeight="25.0" prefWidth="422.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="textFieldMarks" layoutX="162.0" layoutY="171.0" prefHeight="25.0" prefWidth="422.0" promptText="1,2,3,4,5" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="171.0" />
+      <Label layoutX="21.0" layoutY="169.0" prefHeight="29.0" prefWidth="132.0" text="Marks:" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="169.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Please enter number" />
+         </tooltip>
+      </Label>
+      <TextField fx:id="textFieldPublicMark" layoutX="162.0" layoutY="204.0" prefHeight="25.0" prefWidth="422.0" promptText="1, -1, 0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="204.0" />
+      <Label layoutX="21.0" layoutY="203.0" prefHeight="29.0" prefWidth="132.0" text="Public Work:" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="203.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Please enter number" />
+         </tooltip>
+      </Label>
+      <Button layoutX="276.0" layoutY="238.0" mnemonicParsing="false" onAction="#clickAdd" text="Add" AnchorPane.leftAnchor="276.0" AnchorPane.rightAnchor="262.0" AnchorPane.topAnchor="238.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
